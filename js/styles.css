@@ -1,0 +1,46 @@
+body {
+    background-image: url(board.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    /* width: 600;
+    height: 400; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+}
+
+#game {
+    width: 50%;
+    margin: auto;
+    top: 30%
+}
+
+p {
+    text-align: center;
+}
+
+
+
+div {
+    background-color: aliceblue;
+}
+
+button {
+    background-color: yellow;
+    color:black;
+    width: 40%;
+    height:5%
+}
+
+#top-score-el {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#card-el {
+    font-weight: bold;
+}
